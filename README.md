@@ -1,4 +1,4 @@
-# EEG Emotion Detection (EDF)
+# EEG Emotion Detection
 
 A lightweight Streamlit app for **EEG emotion inference** from **EDF** files.  
 It performs preprocessing (notch/bandpass, re-reference), per-epoch feature extraction (bandpowers, Hjorth, ratios, differential entropy), optional **scikit-learn** model inference, and rich **signal visualizations** (raw trace, spectrogram, PSD, bandpower bars, topographic maps).
